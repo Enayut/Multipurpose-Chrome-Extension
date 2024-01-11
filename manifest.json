@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Screenshot Extension",
+    "version": "1.0",
+    "description": "Takes Screenshot of the current website",
+    "permissions": ["activeTab","tabs","storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons":{
+        "48": "icon.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["popup.js"]
+      }
+    ]
+  }

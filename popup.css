@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(65.71deg, #302C2C 1.03%, rgba(20, 19, 19, 0.951) 100%);
+}
+#btn{
+    padding: 10px;
+    color: aliceblue;
+    height: fit-content;
+    border-radius: 10px;
+    border-color: 1px solid rgb(255, 255, 255);
+    padding-inline: 2em;
+    background: linear-gradient(95.4deg, #00C0CC 2.33%, #7400BC 100%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
